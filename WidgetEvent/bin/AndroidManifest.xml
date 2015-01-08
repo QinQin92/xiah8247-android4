@@ -30,6 +30,10 @@
             android:name=".FormActivity"
             android:label="@string/title_activity_text" >
         </activity>
+        <activity
+            android:name=".AdvWidgetActivity"
+            android:label="@string/title_activity_adv_widget" >
+        </activity>
     </application>
 
 </manifest>
