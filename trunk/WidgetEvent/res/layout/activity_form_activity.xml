@@ -81,13 +81,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
+            android:onClick="checkGender"
             android:text="@string/gmale" />
 
         <RadioButton
             android:id="@+id/gfemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="checkGender"
             android:text="@string/gfemale" />
+
     </RadioGroup>
 
     <CheckBox
@@ -121,6 +124,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="40dp"
+        android:onClick="checkGender"
         android:text="@string/gbtn" />
 
     <Button
