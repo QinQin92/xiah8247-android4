@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">위젯이벤트</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form">폼위젯</string>
+    <string name="normalTV">보통크기TextView</string>
+    <string name="largeTV">가장큰TextView</string>
+    <string name="mediumTV">중간크기TextView</string>
+    <string name="smallTV">최소크기TextView</string>
+    <string name="nbtn">보통크기버튼</string>
+    <string name="sbtn">작은크기버튼</string>
+    <string name="gmale">남자</string>
+    <string name="gfemale">여자</string>
+    <string name="jja">짜장면</string>
+    <string name="woo">우동</string>
+    <string name="tang">탕수육</string>
+    <string name="title_activity_form_activity">폼위젯</string>
+    <string name="gbtn">성별확인</string>
+    <string name="obtn">주문확인</string>
+    <string name="minah">All Rights reserved by MINAH</string>
+    <string name="title_activity_text">텍스트위젯</string>
+    <string name="normalText">일반문자열</string>
+    <string name="editText1">이름입력</string>
+    <string name="editText2">비밀번호</string>
+    <string name="editText3">숫자비밀번호</string>
+    <string name="editText4">이메일주소</string>
+    <string name="editText5">전화번호</string>
+    <string name="editText6">일반주소</string>
+    <string name="editText7">여러줄문자</string>
+    <string name="button1">입력내용확인</string>
+
+</resources>

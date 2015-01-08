@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="minah.widgetevent.FormActivityA" >
+
+    <TextView
+        android:id="@+id/normalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/normalTV" />
+
+    <TextView
+        android:id="@+id/largeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/normalTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/largeTV"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/smallTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/normalTV"
+        android:layout_below="@+id/mediumTV"
+        android:layout_marginTop="23dp"
+        android:text="@string/smallTV"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/mediumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/largeTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/mediumTV"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/nbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/smallTV"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="37dp"
+        android:onClick="nbtnClick"
+        android:text="@string/nbtn" />
+
+    <Button
+        android:id="@+id/sbtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/nbtn"
+        android:layout_marginRight="23dp"
+        android:onClick="sbtnClick"
+        android:text="@string/sbtn" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nbtn"
+        android:layout_marginTop="20dp" >
+
+        <RadioButton
+            android:id="@+id/gmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gmale" />
+
+        <RadioButton
+            android:id="@+id/gfemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gfemale" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/jja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/gender"
+        android:text="@string/jja" />
+
+    <CheckBox
+        android:id="@+id/woo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jja"
+        android:layout_below="@+id/jja"
+        android:text="@string/woo" />
+
+    <CheckBox
+        android:id="@+id/tang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/woo"
+        android:layout_below="@+id/woo"
+        android:text="@string/tang" />
+
+    <Button
+        android:id="@+id/gbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/gbtn" />
+
+    <Button
+        android:id="@+id/obtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gbtn"
+        android:layout_alignBottom="@+id/gbtn"
+        android:layout_alignParentRight="true"
+        android:text="@string/obtn" />
+
+    <TextView
+        android:id="@+id/minah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/minah"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
