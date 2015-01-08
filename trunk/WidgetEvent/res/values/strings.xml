@@ -30,5 +30,6 @@
     <string name="editText6">일반주소</string>
     <string name="editText7">여러줄문자</string>
     <string name="button1">입력내용확인</string>
+    <string name="title_activity_adv_widget">고급위젯사용</string>
 
 </resources>
