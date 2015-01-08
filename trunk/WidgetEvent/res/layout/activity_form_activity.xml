@@ -99,6 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/gender"
+        android:onClick="checkFood"
         android:text="@string/jja" />
 
     <CheckBox
@@ -107,6 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/jja"
         android:layout_below="@+id/jja"
+        android:onClick="checkFood"
         android:text="@string/woo" />
 
     <CheckBox
@@ -115,6 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/woo"
         android:layout_below="@+id/woo"
+        android:onClick="checkFood"
         android:text="@string/tang" />
 
     <Button
@@ -134,6 +137,7 @@
         android:layout_alignBaseline="@+id/gbtn"
         android:layout_alignBottom="@+id/gbtn"
         android:layout_alignParentRight="true"
+        android:onClick="checkFood"
         android:text="@string/obtn" />
 
     <TextView
