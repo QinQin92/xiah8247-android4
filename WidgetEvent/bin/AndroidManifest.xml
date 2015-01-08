@@ -14,8 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".TextActivity"
-            android:label="@string/title_activity_text" >
+            android:name=".FormActivityA"
+            android:label="@string/title_activity_form_activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,12 +27,12 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".FormActivity"
-            android:label="@string/title_activity_text" >
+            android:name=".AdvWidgetActivityFormActivity"
+            android:label="@string/title_activity_adv_widget" >
         </activity>
         <activity
-            android:name=".AdvWidgetActivity"
-            android:label="@string/title_activity_adv_widget" >
+            android:name=".TextActivity"
+            android:label="@string/title_activity_text" >
         </activity>
     </application>
 
